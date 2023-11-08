@@ -1,0 +1,34 @@
+*{
+ margin:0;
+ padding:0;
+ font-family: 'Trebuchet MS','Lucida Sabes Univode','Lucida Grande','Lucida Sans','Arial,sans-serif';
+}
+main{
+ display:grid;
+ place-items: Center;
+ height: 100vh;
+ background: cornflowerblue;
+}
+.container{
+ transform: scale(2);
+ display: Flex;
+ flex-direction: columna;
+ gap: 2rem;
+}
+#color{
+ width: 3rem;
+ height: 3rem;
+ border-radius: 50%;
+ background-color: #FFFFFF
+}
+.color-generated{
+ display: Flex;
+ justify-content: space-around;
+ align-items: Center;
+}
+button#color-generator{
+ border: none;
+ Padding: 1rem;
+ border-radius: 8px;
+ cursor: Pointer;
+}
